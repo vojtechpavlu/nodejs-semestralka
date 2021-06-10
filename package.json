@@ -1,0 +1,12 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "nodemon --watch server/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
