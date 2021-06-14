@@ -4,9 +4,17 @@
   "description": "",
   "main": "server/index.js",
   "scripts": {
-    "start": "nodemon --watch server/index.js"
+    "start": "node server/index.js",
+    "debug": "nodemon --watch server server/index.js"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
   "type": "module"
 }

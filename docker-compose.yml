@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+    chat:
+        container_name: chatapp
+        build: .    # Odkaz na složku, kde je Dockerfile - aktualni slozka
+        volumes:
+            - /usr/src/app
+            - /usr/src/app/node_modules
+            - ./tls:/usr/src/app/tls
+        ports:
+            - 443:443
+            #- 8080:8080
+            - 8085:8085    # WebSocket
+        restart: always
+   #     links:
+   #         - mongodb
+   # mongodb:
+   #     image: mongo
+   #     ports:
+   #         - 27017:27017
+   #     restart: always

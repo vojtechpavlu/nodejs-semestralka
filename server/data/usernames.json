@@ -1,0 +1,42 @@
+{
+    "adjectives": [
+        "funky", "clumsy", "poor", "stealth", "sick", "friendly",
+        "wealthy", "sonic", "southern", "obvious", "awful",
+        "stoned", "eternal", "shiny", "booring", "sober", 
+        "drunken", "total", "toughtful", "lazy", "silent", 
+        "french", "irish", "half", "old", "your", "sweet", 
+        "dangerous", "colorful", "wild", "wrong", "upset",
+        "a-star", "firstclass", "open", "good", "lil", "mc", 
+        "his", "her", "rotten", "gentle", "spooky", "punk", 
+        "frozen", "side", "good-ol", "confused", "cruel", 
+        "bad", "fat", "priceless", "salty", "copper", "cobalt", 
+        "awesome", "hardcore", "brutal", "ugly", "dumb", "randy",
+        "talented", "real", "selfish", "damn", "famous", "dandy",
+        "marvelous", "shy", "nice", "hairy", "scary", "mr",
+        "cute", "charles-the", "well-formed", "brave", "low",
+        "medium-clean", "dark", "hidious", "wonder", "super", 
+        "big", "small", "large", "huge", "muddy", "golden",  
+        "gangsta", "mythical", "nordic", "epic",  "epic", "royal", 
+        "volcanic", "smelly", "fishy", "crypto", "cold", "buffy", 
+        "sleepy", "groomy", "doomy", "capitalist", "natural", 
+        "fluffy", "lucky", "demonic", "pure", "deep-fried", 
+        "vegan", "banjo", "stoned", "ginger", "blonde", "strong",
+        "imaginary", "miserable", "unknown", "loud", "gross",
+        "sticky", "stinky"
+    ],
+    "subjects": [
+        "paste", "platypus", "duck", "eclipse", "rod", "judgement", 
+        "donkey", "agent", "pill", "hammer", "compiler", "executioner", 
+        "bird", "thing", "burrito", "party", "wave", "hacker", "man", 
+        "woman", "wombat", "queen", "king", "bar", "stick", "dungeon", 
+        "hole", "lion", "lover", "zebra", "dragon", "doctor", "employee", 
+        "friend", "more-than-friend", "fireman", "guinea-pig", "ghandi", 
+        "lady", "user", "robot", "bot", "potato", "vogon", "illness", "dog",
+        "cat", "recursion", "punishment", "beerlover", "dagger", "lover", 
+        "well", "bear", "herb", "herblover", "nightmare", "anarchist", 
+        "commie", "pain", "brad", "onion", "cucumber", "fan", "diary", 
+        "hell", "gentleman", "pimp", "hose", "frog", "ingot", "train",
+        "the-butcher", "al", "beeper", "bumper", "elephant", "pleasure",
+        "jirka-babica", "zdenek-srstka", "blade"
+    ]
+}

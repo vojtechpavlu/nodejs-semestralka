@@ -1,0 +1,11 @@
+#page {
+    min-height: 100vh !important;
+}
+
+#page-container {
+    min-width: 98% !important;
+}
+
+body {
+    background-color: rgb(41, 43, 44);
+}
