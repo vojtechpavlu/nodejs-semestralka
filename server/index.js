@@ -23,8 +23,9 @@ const app = express();
 
 app.use(express.static('client'));
 
-initialize(WS_PORT, app).then(() => {
-    let httpsServer = https.createServer(credentials, app)
+let httpsServer = https.createServer(credentials, app)
+
+initialize(httpsServer, app).then(() => {
     httpsServer.listen(DEF_PORT);
     console.log(`App is listening at port ${DEF_PORT}`);
 });

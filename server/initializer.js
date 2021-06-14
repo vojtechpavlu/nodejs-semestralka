@@ -2,11 +2,11 @@ import { buildAPI } from "./api.js";
 import { initializeUsernames } from "./users.js";
 import { initWS } from "./websocket.js";
 
-export const initialize = (port, app) => {
+export const initialize = (server, app) => {
     return new Promise((resolve, reject) => {
         initializeUsernames()
         .then(() => {
-            initWS(port)
+            initWS(server)
         })
         .then(() => {
             buildAPI(app);

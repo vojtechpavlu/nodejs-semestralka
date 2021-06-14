@@ -4,20 +4,19 @@ import { Message } from './message.js';
 import { getAllUsers, getUser, registerNewUser } from './users.js';
 
 const users = [];
-let PORT = undefined;
-
+let PORT = 443;
 
 export const getWSPort = () => {
     return PORT;
 }
 
-export const initWS = (port) => {
+export const initWS = (server) => {
     return new Promise((resolve, reject) => {
         try {
-            let wss = new WebSocket.Server({port: port});
-            console.log(`WSS is listening at port ${port}`);
+            let wss = new WebSocket.Server({server});
+            console.log(`WSS is listening at port ${443}`);
             initEvents(wss)
-            PORT = port;
+            PORT = server;
             resolve();
         } catch (err) {
             reject(err);
