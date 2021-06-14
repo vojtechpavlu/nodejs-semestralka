@@ -8,7 +8,7 @@ const initWebsocket = () => {
         .then(response => response.json())
         .then(data => {port = data.wsport})
         .then(() => {
-            ws = new WebSocket(`ws://${window.location.hostname}:${port}`);
+            wss = new WebSocket(`ws://${window.location.hostname}:${port}`);
 
             ws.addEventListener('open', () => {
                 console.log('open')
